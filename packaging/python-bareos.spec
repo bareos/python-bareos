@@ -26,7 +26,7 @@ License:        AGPL-3.0
 URL:            https://github.com/bareos/python-bareos/
 Vendor:         The Bareos Team
 #Source0:        http://pypi.python.org/packages/source/e/%%{srcname}/%%{srcname}-%%{version}.tar.gz
-Source:         %{name}-%{version}.tar.gz
+Source:         %{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-root
 %global debug_package %{nil}
 %if %{with python2}
